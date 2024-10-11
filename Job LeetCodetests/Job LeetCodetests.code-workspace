@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+   ],
+   "launch": {
+      "version": "0.2.0",
+      "configurations": [
+         {
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "name": "nodemon",
+            "program": "${file}",
+            "request": "launch",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+            "skipFiles": [
+               "<node_internals>/**"
+            ],
+            "type": "node"
+         }
+         
+      ]
+   },
+   "settings": {
+      "editor.tabSize": 4
+   }
+}

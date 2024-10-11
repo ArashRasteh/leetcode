@@ -1,4 +1,4 @@
-const { arrayToBinaryTree , TreeNode } = require("./HelperModules/ArrayToBinaryTree");
+const { arrayToBinaryTree , TreeNode } = require("../HelperModules/ArrayToBinaryTree");
 
     
 /**
