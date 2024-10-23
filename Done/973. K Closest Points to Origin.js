@@ -37,4 +37,10 @@ var kClosest = function(points, k) {
 // console.log(kClosest([[1,3],[-2,2]], 1))
 // console.log(kClosest([[3,3],[5,-1],[-2,4]], 2))
 // console.log(kClosest([[1,3],[-2,2],[2,-2]], 2))
+const t0 = performance.now();
+kClosest([[-2,10],[-4,-8],[10,7],[-4,-7]], 3)
+const t1 = performance.now();
+console.log(t1 - t0)
+
+
 console.log(kClosest([[-2,10],[-4,-8],[10,7],[-4,-7]], 3)) //[[-4,-7],[-4,-8],[-2,10]]
